@@ -1,0 +1,7 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/BrightNight-Energy/conventional-commit-check
+    rev: v1.0.0  # Replace with your actual tag
+    hooks:
+      - id: first-commit-check

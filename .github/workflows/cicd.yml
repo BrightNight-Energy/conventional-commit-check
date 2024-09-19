@@ -1,0 +1,25 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - 'main'
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CICD_RELEASE_GITHUB_TOKEN }}
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.12.0'
+      - name: Install packages
+        run: npm install
+      - name: Create github release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.CICD_RELEASE_GITHUB_TOKEN }}

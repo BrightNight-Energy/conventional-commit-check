@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/BrightNight-Energy/conventional-commit-check/issues"
   },
-  "homepage": "https://github.com/BrightNight-Energy/conventional-commit-check#readme"
+  "homepage": "https://github.com/BrightNight-Energy/conventional-commit-check#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "semantic-release": "^24.1.1"
+  }
 }
