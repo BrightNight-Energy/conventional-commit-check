@@ -7,7 +7,7 @@ branch_name=$(git rev-parse --abbrev-ref HEAD)
 commit_count=$(git rev-list --count main..$branch_name)
 # Only check the commit message if it's the first commit on this branch
 
-if [ "$commit_count" -eq 0 ] || [ "$commit_count" -eq 1 ]; then
+if [ "$commit_count" -eq 0 ]; then
   # Get the commit message of the staged commit
   commit_msg_file="$1"
 
