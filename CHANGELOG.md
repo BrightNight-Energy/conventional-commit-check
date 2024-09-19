@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.1...v1.0.2) (2024-09-19)
+
+
+### Bug Fixes
+
+* Change pre commit stage to commit-msg ([#6](https://github.com/BrightNight-Energy/conventional-commit-check/issues/6)) ([c116bc1](https://github.com/BrightNight-Energy/conventional-commit-check/commit/c116bc1e5582f1377add596fdc80908bce6cee2c))
+
 ## [1.0.1](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.0...v1.0.1) (2024-09-19)
 
 
