@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.2...v1.0.3) (2024-09-19)
+
+
+### Bug Fixes
+
+* Make sure hook only considers first commit ([#7](https://github.com/BrightNight-Energy/conventional-commit-check/issues/7)) ([16a07d8](https://github.com/BrightNight-Energy/conventional-commit-check/commit/16a07d8c2288a84ade801fe6c5211f42a65896ac))
+
 ## [1.0.2](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.1...v1.0.2) (2024-09-19)
 
 
