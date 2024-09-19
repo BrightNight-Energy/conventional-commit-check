@@ -1,0 +1,20 @@
+{
+  "name": "conventional-commit-check",
+  "version": "1.0.0",
+  "description": "A precommit hook to check if the first commit complies with conventional commits",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrightNight-Energy/conventional-commit-check.git"
+  },
+  "keywords": [
+    "conventional-commits",
+    "pre-commit",
+    "hook"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrightNight-Energy/conventional-commit-check/issues"
+  },
+  "homepage": "https://github.com/BrightNight-Energy/conventional-commit-check#readme"
+}

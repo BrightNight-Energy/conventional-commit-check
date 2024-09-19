@@ -1,0 +1,7 @@
+# .pre-commit-hooks.yaml
+- id: first-commit-check
+  name: conventional-commit-check
+  description: Enforces conventional commit message format for the first commit on a branch
+  entry: ./commit-check.sh
+  language: script
+  stages: [commit]
