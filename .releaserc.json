@@ -2,7 +2,40 @@
   "repositoryUrl": "https://github.com/BrightNight-Energy/conventional-commit-check",
   "plugins": [
     "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          {
+            "type": "feat",
+            "release": "minor"
+          },
+          {
+            "type": "fix",
+            "release": "patch"
+          },
+          {
+            "type": "chore",
+            "scope": "commit-check",
+            "release": "patch"
+          },
+          {
+            "type": "docs",
+            "scope": "readme",
+            "release": false
+          },
+          {
+            "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "type": "style",
+            "release": false
+          }
+        ]
+      }
+    ],
     [
       "@semantic-release/changelog",
       {
