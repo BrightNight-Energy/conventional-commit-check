@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.3...v1.0.4) (2024-09-24)
+
+
+### Bug Fixes
+
+* Fix to allow 'feat!' commits ([#8](https://github.com/BrightNight-Energy/conventional-commit-check/issues/8)) ([2f1068d](https://github.com/BrightNight-Energy/conventional-commit-check/commit/2f1068ddf5bf405781bdfbcf99822ac394724129))
+
 ## [1.0.3](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.2...v1.0.3) (2024-09-19)
 
 
