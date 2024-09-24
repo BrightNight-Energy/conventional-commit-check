@@ -14,7 +14,7 @@ if [ "$commit_count" -eq 0 ]; then
   # Read the commit message from the file
   commit_msg=$(cat "$commit_msg_file")
   # Define a regex pattern for conventional commit messages
-  pattern="^(feat|fix|docs|style|refactor|test|chore|revert|build|ci|perf|other)(\([a-zA-Z0-9_\-]+\))?: .+"
+  pattern="^(feat(\!)?|fix|docs|style|refactor|test|chore|revert|build|ci|perf|other)(\([a-zA-Z0-9_\-]+\))?: .+"
   # Check if the commit message matches the pattern
   if ! echo "$commit_msg" | grep -Eq "$pattern"; then
     echo "Error: The first commit message on this branch does not follow the conventional commit pattern." >&2
