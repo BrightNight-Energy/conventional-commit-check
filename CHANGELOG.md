@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.4...v1.1.0) (2024-10-19)
+
+
+### Features
+
+* Add support for emoji commit messages ([#9](https://github.com/BrightNight-Energy/conventional-commit-check/issues/9)) ([c08f22f](https://github.com/BrightNight-Energy/conventional-commit-check/commit/c08f22ffc49a0515d84e544994fafc12c8304534))
+
 ## [1.0.4](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.0.3...v1.0.4) (2024-09-24)
 
 
