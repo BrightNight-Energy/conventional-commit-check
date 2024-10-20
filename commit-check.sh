@@ -92,8 +92,6 @@ branch_name=$(git rev-parse --abbrev-ref HEAD)
 commit_count=$(git rev-list --count main..$branch_name)
 echo "Commit count relative to main: $commit_count" >&2
 
-echo "$commit_msg"
-
 # Only check the commit message if it's the first commit on this branch
 if [ "$commit_count" -eq 0 ]; then
   # Define regex patterns based on parser
