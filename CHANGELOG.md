@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.1.1...v1.1.2) (2024-10-20)
+
+
+### Bug Fixes
+
+* Add to accepted emojis ([#11](https://github.com/BrightNight-Energy/conventional-commit-check/issues/11)) ([ad6491d](https://github.com/BrightNight-Energy/conventional-commit-check/commit/ad6491db1a4cddd85710d36f2406f000778b4156))
+
 ## [1.1.1](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.1.0...v1.1.1) (2024-10-20)
 
 
