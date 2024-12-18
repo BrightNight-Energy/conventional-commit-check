@@ -137,6 +137,9 @@ if [ "$commit_count" -eq 0 ]; then
     else
       echo "Where <type> is one of feat, feat!, fix, docs, style, refactor, test, chore, revert, build, ci, perf, other" >&2
     fi
+
+    echo "Supplied commit message:" >&2
+    echo "$commit_msg" >&2
     exit 1
   fi
 else
