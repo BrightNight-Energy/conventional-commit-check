@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.1.2...v1.2.0) (2024-12-18)
+
+
+### Features
+
+* Add supplied commit message to error message for ease of use ([#12](https://github.com/BrightNight-Energy/conventional-commit-check/issues/12)) ([069272e](https://github.com/BrightNight-Energy/conventional-commit-check/commit/069272ef512f6c10358fe4219690427e71468626))
+
 ## [1.1.2](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.1.1...v1.1.2) (2024-10-20)
 
 
