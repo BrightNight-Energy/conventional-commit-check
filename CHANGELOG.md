@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.2.0...v1.2.1) (2025-01-14)
+
+
+### Bug Fixes
+
+* Allow all breaking patterns ([#13](https://github.com/BrightNight-Energy/conventional-commit-check/issues/13)) ([4106123](https://github.com/BrightNight-Energy/conventional-commit-check/commit/41061234ef1536f396f66e0b3a12c812dee71855))
+
 # [1.2.0](https://github.com/BrightNight-Energy/conventional-commit-check/compare/v1.1.2...v1.2.0) (2024-12-18)
 
 

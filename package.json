@@ -1,6 +1,6 @@
 {
   "name": "conventional-commit-check",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A precommit hook to check if the first commit complies with conventional commits",
   "repository": {
     "type": "git",
