@@ -120,7 +120,7 @@ if [ "$commit_count" -eq 0 ]; then
     # Add the start (^) and non-capturing group (?: ... ) to form the regex pattern
     pattern="^(?:$emoji_pattern)"
   elif [[ "$parser" == "angular" ]]; then
-    pattern="^(feat(\!)?|fix|docs|style|refactor|test|chore|revert|build|ci|perf|other)(\([a-zA-Z0-9_\-]+\))?: .+"
+    pattern="^(feat!|fix!|docs!|style!|refactor!|test!|chore!|revert!|build!|ci!|perf!|other!|feat|fix|docs|style|refactor|test|chore|revert|build|ci|perf|other)(\([a-zA-Z0-9_\-]+\))?: .+"
   else
     echo "Error: Invalid commit parser value"
     exit 1  # Exit with a non-zero status to indicate an error
@@ -135,7 +135,7 @@ if [ "$commit_count" -eq 0 ]; then
       echo "Where <type> is one of these emojis=$joined_emojis" >&2
       echo "It is recommend to use gitmoji-cli (npm install -g gitmoji-cli). For more information, see: https://gitmoji.dev" >&2
     else
-      echo "Where <type> is one of feat, feat!, fix, docs, style, refactor, test, chore, revert, build, ci, perf, other" >&2
+      echo "Where <type> is one of feat, fix, docs, style, refactor, test, chore, revert, build, ci, perf, other" >&2
     fi
 
     echo "Supplied commit message:" >&2
